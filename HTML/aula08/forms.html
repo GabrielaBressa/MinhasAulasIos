@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#">
+
+        <fieldset>
+            <legend>Cadastro Clente</legend>
+            <label for="">Nome:</label>
+            <input type="text"> 
+            <br><br>
+            <label for="">Email:</label>
+            <input type="text">
+            <br><br>
+            <label for="">Contato:</label>
+            <input type="text">
+        </fieldset>
+        <br>
+        <fieldset>
+            
+            <p>Lista de Carros:</p>
+            <select name="ListaCarro" id="ListaCarro">
+                <option disabled selected hidden>Selecione</option>
+                <option value="evoque">Evoque</option>
+                <option value="celta">Celta</option>
+                <option value="jetta">jetta</option>
+                <option value="hb20">hb20</option>
+                <option value="mercades">Mercedes GLE</option>
+            </select>
+        </fieldset>
+
+        <P>Região</P>
+        <input autocomplete="on" list="Regiao" placeholder="Ex: São paulo">
+        <datalist id="Regiao">
+            <option value="São paulo"></option>
+            <option value="Juquitiba"></option>
+            <option value="Parana"></option>
+        </datalist>
+        <br><br>
+
+        <input type="range" value="ss" id="tst"> <br><br>
+
+        <label for="feedback">Deixe seu Feedback Aqui </label>
+        <br><br>
+        <textarea name="feedback" id="feedback" cols="30" rows="10" required placeholder="Deixe seu feedback."
+            maxlength="150" minlength="100"></textarea>
+        <fieldset>
+    </form>
+</body>
+
+</html>
