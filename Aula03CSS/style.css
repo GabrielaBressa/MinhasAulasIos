@@ -1,0 +1,29 @@
+head {
+    background-color: rgb(153, 0, 255);
+    height: 200px;
+
+}
+
+h1 {
+    color: ghostwhite;
+    text-align: justify;
+    line-height: 200;
+    text-shadow: 5px 5px 4px crimson;
+
+}
+
+p {
+    color: aliceblue;
+    /* font-weight: bolder; */
+    /* font-style: otalic; */
+    line-height: 100%;
+    padding: 20px;
+    /* text-align: center ;*/
+    /* text-align: right */
+    /* text-align: left*/
+    text-align: center;
+}
+
+.bobesponja {
+    filter: drop-shadow(10px 11px 6px #aF77C4);
+}
