@@ -1,0 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.primeiro {
+    padding: 10px 20px 30px 40px;
+}
+
+.segundo {
+    border: solid 10px red;
+    padding: 15px;
+
+padding: 10px 20px 30px 40px;
+}

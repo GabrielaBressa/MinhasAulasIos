@@ -1,0 +1,21 @@
+*{
+    margin: 5px;
+}
+.box1 {
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+}
+
+.box2 {
+    background-color: cornflowerblue;
+    width: 250px;
+    height: 250px;
+}
+
+.box3 {
+    background-image: url(travis02.png);
+    width: 200vw ; /*250px*/
+    height: 100vh ; /*250px*/
+    
+}
