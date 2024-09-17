@@ -1,0 +1,22 @@
+section {
+    border: solid 1px cornflowerblue;
+    width: 100%;
+    text-align: center;
+}
+
+div {
+    margin: 10px;
+    width: 25vw;
+}
+
+.segundo {
+    float: left;
+}
+
+.texto2 {
+    float: unset;
+}
+
+img {
+    float: right;
+}

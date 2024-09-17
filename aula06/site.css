@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(191, 217, 243);
+}
+
+.logo {
+    background-repeat: no-repeat;
+    background-image: url(/CSS/aula06/logo.jfif);
+    height: 500vw;
+    width: 200vh;
+}
+
+.logo {
+    border: solid 2px rgba(228, 194, 186, 0);
+    padding: 15px;
+    padding: 40px 50px 50px 40px
+}
+
+.topo {
+    background-color: black;
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.produto {
+    background-image: url(/imagens/iphone\ 12.jfif);
+    height: 500vw;
+    width: 200vh;
+}

@@ -1,0 +1,15 @@
+* {
+    margin: 2em;
+}
+.container {
+    border: solid 2px blanchedalmond;
+    overflow: auto;
+}
+
+img {
+    border: solid 1px blue;
+    float: right;
+}
+.par2 {
+    clear: right;
+}
