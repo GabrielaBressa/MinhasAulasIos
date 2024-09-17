@@ -1,0 +1,22 @@
+div {
+    height: 250px;
+    width: 250px;
+    border: dotted 1px;
+    margin: 0.5em;
+}
+
+.caixa1 {
+    background-color: brown;
+    box-sizing: content-box;
+    font-size: 2em;
+    padding: 30px;
+    border: dotted 10px cornsilk;
+}
+
+.caixa2 {
+    box-sizing: border-box;
+    background-color: chartreuse;
+    font-size: 2em;
+    padding: 30px;
+    border: dotted 10px rgb(131, 52, 108);
+}
