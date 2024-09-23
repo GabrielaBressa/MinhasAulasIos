@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+h1 {
+    color: blue;
+}
+
+div {
+    text-align: center;
+}
+
+body {
+    background-color: lawngreen;
+}
+
+@media screen and (max-width: 320px) {
+
+    /* enquanto tela não for maior que 320px*/
+    h1 {
+        color: indigo;
+        font-size: 2.3em;
+    }
+}
+
+@media print and (max-width: 1200px) {
+    h1 {
+        color: black;
+    }
+
+    h2 {
+        color: coral;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        color: rgb(0, 30, 85);
+    }
+}
+
+@media (min-width: 769px) {
+    h3 {
+        background-color: magenta;
+        color: aliceblue;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    /* 1025px - 1200 - desktop */
+    h2,
+    h3,
+    h4,
+    h5 {
+        display: none;
+    }
+}
