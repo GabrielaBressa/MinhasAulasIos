@@ -1,0 +1,35 @@
+.container {
+    height: 600px;
+    width: 800px;
+    margin: 25px auto;
+    border: dotted 3px rgb(43, 93, 187);
+    display: grid;
+    grid-template-columns: repeat( 1fr);
+    grid-template-rows: repeat (1fr);
+    grid-template-areas:
+        "header header header header"
+        "aside main main main"
+        "aside main main main"
+        "footer footer footer footer"
+    ;
+}
+
+.box1 {
+    grid-area: header;
+    background-color: cornflowerblue;
+}
+
+.box2 {
+    grid-area: aside;
+    background-color: chartreuse;
+}
+
+.box3 {
+    grid-area: main;
+    background-color: gold;
+}
+
+.box4 {
+    grid-area: footer;
+    background-color: lightcoral;
+}

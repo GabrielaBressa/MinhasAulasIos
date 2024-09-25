@@ -1,0 +1,46 @@
+.container {
+    height: 600px;
+    width: 800px;
+    margin: 25px auto;
+    border: dotted 3px rgb(43, 93, 187);
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: repeat(1fr);
+    grid-template-areas:
+        "casa casa casa casa"
+        "carro piscina piscina piscina"
+        "carro piscina piscina piscina"
+        "moto moto moto moto"
+        "cachorro gato gato gato"
+        "cachorro gato gato gato"
+        "porta porta porta porta"
+        ;
+}
+.casa {
+    grid-area: casa;
+    background-color: cornflowerblue;
+}
+.carro {
+grid-area: carro;
+background-color: rgb(124, 20, 46);
+}
+.piscina {
+   grid-area: piscina;
+   background-color: brown; 
+}
+.cachorro{
+    grid-area: cachorro; 
+ background-color: blue;
+}
+.moto {
+    grid-area: moto;
+    background-color: chartreuse;
+}
+.gato {
+    grid-area: gato;
+    background-color: chocolate;
+}
+.porta {
+    grid-area: porta;
+    background-color: yellowgreen;
+}
