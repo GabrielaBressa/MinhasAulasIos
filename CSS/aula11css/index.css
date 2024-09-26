@@ -1,0 +1,36 @@
+#container {
+    display: grid;
+    height: 800px;
+    width: 800px;
+    border: solid 3px rgb(43, 93, 187);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 10px;
+    grid-template-areas:
+        "caixa1 caixa2 caixa3"
+        "caixa1 caixa2 caixa3"
+        "caixa1 caixa2 caixa3";
+
+    column-gap: 10px;
+    row-gap: 35px;
+    gap: 10px 35px;
+
+align-items: start;
+
+
+}
+
+.caixa1 {
+    background-color: coral;
+    grid-area: Caixa1;
+}
+
+.caixa2 {
+    background-color: crimson;
+    grid-area: Caixa2;
+}
+
+.caixa3 {
+    background-color: gold;
+    grid-area: Caixa3;
+}
