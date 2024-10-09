@@ -27,3 +27,7 @@ let nome = 'Gabriela Raie';
 let novoNome = nome.replace('Raie', 'Bressa')
 console.log(nome);
 console.log(novoNome);
+console.log(nome);
+
+let nomeTrim = nome.trim()
+console.log(nomeTrim);
