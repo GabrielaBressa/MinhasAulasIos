@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicar Desconto</title>
+    <script>
+        function aplicarDesconto() {
+            const codigoPromocional = document.getElementById('codigoPromocional').value.toUpperCase();
+            const valorOriginal = parseFloat(document.getElementById('valorOriginal').value);
+            let desconto = 0;
+            switch (codigoPromocional) {
+                case "DESC1":
+                    desconto = 0.05; 
+                    break;
+                case "DESC2":
+                    desconto = 0.10; 
+                    break;
+                case "DESC3":
+                    desconto = 0.15; 
+                    break;
+                case "DESC4":
+                    desconto = 0.20; 
+                    break;
+                case "DESC5":
+                    desconto = 0.25;
+                    break;
+                default:
+                    document.getElementById('resultado').innerText = "Erro: O código promocional informado não é válido.";
+                    return; 
+            }
+            const valorComDesconto = valorOriginal * (1 - desconto);
+            document.getElementById('resultado').innerText = `Código promocional: ${codigoPromocional} - ${desconto * 100}% de desconto\nValor original: R$ ${valorOriginal.toFixed(2)}\nValor com desconto: R$ ${valorComDesconto.toFixed(2)}`;
+        }
+    </script>
+</head>
+<body>
+    <h1>Aplicar Desconto em Produto</h1>
+    <label for="codigoPromocional">Código promocional:</label>
+    <input type="text" id="codigoPromocional" required>
+    
+    <label for="valorOriginal">Valor original do produto (R$):</label>
+    <input type="number" id="valorOriginal" step="0.01" required>
+    
+    <button onclick="aplicarDesconto()">Aplicar Desconto</button>
+    <pre id="resultado"></pre>
+</body>
+</html>
