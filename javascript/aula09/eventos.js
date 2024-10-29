@@ -8,4 +8,9 @@ const voltarCor = () => {
     let elementoDiv = document.querySelector('#div1');
 
     elementoDiv.style.backgroundColor = 'white'
-}
+} 
+
+const trocaNome = () => {
+   let elementoDiv = document.querySelector('#div1');
+    elementoDiv.innerHTML = 'Bressa'
+  }
